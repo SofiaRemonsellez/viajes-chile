@@ -12,15 +12,6 @@ h2 {
     font-weight: 700;
 
 }
-.navbar-wrapper {
-    position:relative;
-}
-.navbar {
-    position:absolute;
-    top:0;
-    z-index:10;
-    width:100%;
-}
 .img-navbar {
     object-fit: contain;
     width: 2rem;
@@ -43,4 +34,8 @@ i {
 h4 {
     color: white;
     font-weight: 400;
+}
+.color-navbar{
+    background-color: #1BAFBF;
+    transition:0.75s ease;
 }
